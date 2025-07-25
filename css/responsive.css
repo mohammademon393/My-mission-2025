@@ -1,0 +1,20 @@
+/* header part */
+@media screen and (max-width:576px) {
+    p{
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+    .nav,
+    .nav>ul
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-left h1{
+        font-size: 2rem;
+    }
+}
