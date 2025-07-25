@@ -19,6 +19,7 @@ p{
     font-weight: 400;
     color: rgb(62, 62, 62);
 }
+
 .btn{
     width: 170px;
     height: 50px;
@@ -64,6 +65,30 @@ p{
     font-weight: 600;
 }
 .banner-right{
-    flex: 1;
-    
+    flex: 1;   
+}
+/* My mission */
+.mission{
+    text-align: center;
+    justify-content: center;
+}
+.mission-container{
+    display: flex;
+    gap: 20px;
+}
+.mission-child{
+    max-width: 360px;
+    height: 370px;
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+.mission-child h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.mission h2{
+    font-size: 3rem;
+    font-weight: 700;
 }
