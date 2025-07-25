@@ -127,3 +127,14 @@ p{
     position: relative;
     z-index: 1;
 }
+
+/* footer */
+footer{
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
