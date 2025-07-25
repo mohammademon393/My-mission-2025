@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.yeseva-one-font {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shered styesls */
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.text-color{
+    color: #E95A08;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(62, 62, 62);
+}
+.btn{
+    width: 170px;
+    height: 50px;
+    background-color: #E95A08;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none
+}
+/* header part */
+/* navber */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > ul{
+    display: flex;
+    gap: 10px;
+}
+.nav > ul >li{
+    list-style: none;
+    margin-right: 10px;
+}
+.nav > ul > li >a{
+    text-decoration: none;
+    color: black;
+}
+.nav h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* banner part */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-left{
+    flex: 1;
+}
+.banner-left h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+.banner-right{
+    flex: 1;
+    
+}
+.banner-right img{
+    
+}
