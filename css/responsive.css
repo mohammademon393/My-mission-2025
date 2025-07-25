@@ -1,4 +1,3 @@
-/* header part */
 @media screen and (max-width:576px) {
     p{
         font-size: 0.7rem;
@@ -6,7 +5,9 @@
     }
     .nav,
     .nav>ul,
-        .mission-container
+    .mission-container,
+    .develop,
+    .Build-Application-container
     {
         flex-direction: column;
         text-align: center;
@@ -15,7 +16,20 @@
         flex-direction: column-reverse;
         text-align: center;
     }
-    .banner-left h1, .mission h2{
+    .banner-left h1, 
+    .mission h2,
+    .develop-right h2, 
+    .app-title{
         font-size: 2rem;
+    }
+    .develop-left-img{
+        width: 100%;
+        margin-bottom:-50px;
+    }
+    .Build-Application{
+        margin-top: 150px;
+    }
+    .app{
+        width: 100%;
     }
 }
